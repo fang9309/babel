@@ -1,0 +1,7 @@
+1  npm init 工程文件
+2  npm i @babel/cli @babel/core @babel/preset-env
+3  添加命令 "build":"babel src -d dist"
+4  添加.babelrc配置文件
+	{
+		"presets":["@/babel/preset-env"]
+	}
